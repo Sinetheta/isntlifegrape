@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Isntlifegrape</title>
+  <%= stylesheet_link_tag    "/assets/app", media: "all" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <%= yield %>
+
+  <%= javascript_include_tag '/assets/vendor' %>
+  <%= javascript_include_tag '/assets/isntlifegrape' %>
+</body>
+</html>
