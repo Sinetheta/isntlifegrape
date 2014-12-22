@@ -4,6 +4,8 @@
 Router = Ember.Router.extend(location: config.locationType)
 
 Router.map ->
-  @route 'about'
+  @route    'about'
+  @resource 'tastings', ->
+    @route    'show', {path: ':tasting_id'}
 
 `export default Router`
