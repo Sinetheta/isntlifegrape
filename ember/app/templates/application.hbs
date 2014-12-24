@@ -1,7 +1,12 @@
-<h2 id='title'>Welcome to IsntLifeGrape</h2>
+{{#paper-sidenav}}
+  {{#paper-drawer}}
 
-{{link-to 'Home' 'application'}}
-{{link-to 'Tastings' 'tastings'}}
-{{link-to 'About' 'about'}}
+    {{outlet sidebar}}
 
-{{outlet}}
+  {{/paper-drawer}}
+  {{#paper-content classNames="sidenav-static-content"}}
+
+    {{outlet}}
+
+  {{/paper-content}}
+{{/paper-sidenav}}

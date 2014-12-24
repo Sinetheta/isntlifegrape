@@ -15,5 +15,5 @@ test 'Should welcome me to Isntlifegrape', ->
 
 test 'Should allow navigating back to root from another page', ->
   visit('/about').then ->
-    click('a:contains("Home")').then ->
+    click('a:contains("Isn\'t Life Grape")').then ->
       notEqual find('h3').text(), 'About'
