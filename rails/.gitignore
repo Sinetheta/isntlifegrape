@@ -1,5 +1,6 @@
 # tempfiles and user settings
 # https://github.com/github/gitignore/blob/master/Rails.gitignore
+.env
 *.rbc
 capybara-*.html
 .rspec
@@ -20,7 +21,7 @@ pickle-email-*.html
 
 ## Environment normalisation:
 /.bundle
-/vendor/bundle
+vendor/bundle
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
