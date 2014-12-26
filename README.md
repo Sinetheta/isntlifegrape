@@ -1,4 +1,4 @@
-# Isn'tLifeGrape
+# Isn'tLifeGrape [![Build Status](https://travis-ci.org/Sinetheta/isntlifegrape.svg?branch=master)](https://travis-ci.org/Sinetheta/isntlifegrape)
 
 ## Deploying to Heoku
 

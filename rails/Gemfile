@@ -46,5 +46,3 @@ end
 gem 'foreman'
 
 gem 'unicorn'
-
-ruby '2.1.2'
